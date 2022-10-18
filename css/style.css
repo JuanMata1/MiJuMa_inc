@@ -35,6 +35,13 @@ footer{
     text-align: center;
   }
   
+  .slider{
+    display: none;
+}
+
+.slider-contenedor{
+    display: none;
+}
 
   #menu-enl li{
     margin: 0.50em;
@@ -217,6 +224,26 @@ nav ul li{
     display: grid;
     place-content: center;
   }
+
+  .slider{
+    margin-top: 5%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.img-slider{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
 
   #menu{
    display: grid;
