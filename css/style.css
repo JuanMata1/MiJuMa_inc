@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html{
+    opacity: 0.8;
+    background: linear-gradient(135deg, #12132555 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #121325 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #12132555 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #121325 25%, #070708 25%) 0px 0/ 80px 80px;
+}
+
+header{
+    background-color: lightslategray;
+}
+
+footer{
+    background-color: aquamarine;
+    padding: 1em;
+}
+
+
+/* EMPIEZA CSS BREAKPOINT CEL*/
+/* EMPIEZA CSS BREAKPOINT CEL*/
+
+@media all and (min-width:320px){
+  
+  #logo{
+    margin: auto;
+    display: flex;
+    width: 12em;
+    height: 10em;
+  }
+
+  h2{
+    text-align: center;
+  }
+  
+
+  #menu-enl li{
+    margin: 0.50em;
+    border: 0.20em black solid;
+ }
+
+
+
+  #menu-enl a{
+    padding: 1em;
+    display: block;
+    max-width: 100%;
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    border: black 0.10em solid;
+}
+
+#cerrar{
+    display: none;
+    margin: 1em;
+}
+
+#abrir{
+    margin: 1em;
+}
+
+#menu-enl{
+    overflow: hidden;
+    height: 0;
+    transition: 1s ease height;
+}
+
+#menu:target #abrir{
+    display: none;
+}
+
+#menu:target #cerrar{
+    display: block;
+}
+
+#menu:target #menu-enl{
+    height: 20em;
+}
+#menu img{
+    width: 3em;
+    height: 3em;
+  }
+
+
+.cardG{               
+    box-shadow: 0.5em 0.5em 0.5em rgb(18, 18, 60) ;
+    width: 17.6em;
+    margin-right: 3em;
+    margin-left: 1.3em;                                    /*CARD DE LOS JUEGOS*/
+    margin-bottom: 2em;                                   /*CARD DE LOS JUEGOS*/
+    margin-top: 1em;                                       /*CARD DE LOS JUEGOS*/
+    height: 35em;
+    background-color: lightgrey;
+    border: rgb(6, 8, 110) solid 0.5em;
+    border-radius: 1em;
+ 
+}
+ 
+.cardG figure{
+    height:21em;
+}
+
+.cardG img{
+    height: 20em;
+    border-radius: 0.5em;
+    border:rgb(6, 8, 110) 0.2em solid ;
+    width: 18em;
+    box-shadow:0.2em blue;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    display: grid;
+    place-content: center;
+}
+
+th,td{
+    text-align: center;
+    padding:0.5em;
+    width: 10em;
+    border:0.2em black solid;
+}
+
+
+input[type="button"]{
+   cursor: pointer;
+   margin: 1em;
+   width: 90%;
+   height: 4em;
+   background-color: orange;
+   border: orangered solid 0.3em;
+   color: blue;
+}
+
+}
+/*CIERRA BREAKPOINTCEL*/
+/*CIERRA BREAKPOINTCEL*/
+
+
+/*EMPIEZA BREAKPOINT TABLE*/
+/*EMPIEZA BREAKPOINT TABLE*/
+
+@media all and (min-width:768px){
+
+.cardG{
+    margin-left: 4em;
+}
+
+#main1{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#abrir, #cerrar{
+    margin: 2em;
+}
+
+#menu ul li{ 
+   text-align: center;
+}
+
+}
+/*CIERRA BREAKPOINT TABLE*/
+/*CIERRA BREAKPOINT TABLE*/
+
+/*EMPIEZA BREAKPOINT MONITOR*/
+/*EMPIEZA BREAKPOINT MONITOR*/
+@media all and (min-width:1200px){
+
+  .cardG{
+    margin-left: 4em;
+  }
+
+
+  #abrir, #cerrar{
+    display: none;
+    cursor: none;
+  }
+
+ #menu{
+    width: 60%;
+    height: 10em;
+    display: grid;
+    place-content: right;
+ }
+ 
+ nav ul{
+    width: 45em;
+    height: 10em;
+ }
+
+nav ul li{
+    width: 50%;
+}
+
+
+  figure{
+    display: flex;
+    flex-direction: row;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  h2{
+    display: grid;
+    place-content: center;
+  }
+
+  #menu{
+   display: grid;
+   place-content: center;
+  }
+
+  #menu-enl{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+   
+  nav a:hover{
+    transition: .5s ease;
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  .cardG:hover{
+    transform: scale(1,1.03);
+    transition: ease .5s ;
+  }
+
+  .comprar:hover{
+    transition: .6s ;
+    background-color: crimson;
+  }
+
+}
