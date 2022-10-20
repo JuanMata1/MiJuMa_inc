@@ -10,7 +10,7 @@ html{
 }
 
 header{
-    background-color: lightslategray;
+    background-color: #778899;
 }
 
 footer{
@@ -19,7 +19,6 @@ footer{
 }
 
 
-/* EMPIEZA CSS BREAKPOINT CEL*/
 /* EMPIEZA CSS BREAKPOINT CEL*/
 
 @media all and (min-width:320px){
@@ -47,8 +46,6 @@ footer{
     margin: 0.50em;
     border: 0.20em black solid;
  }
-
-
 
   #menu-enl a{
     padding: 1em;
@@ -93,15 +90,14 @@ footer{
 
 
 .cardG{               
-    box-shadow: 0.5em 0.5em 0.5em rgb(18, 18, 60) ;
-    width: 17.6em;
+    box-shadow: 0.4em 0.4em 0.4em gray ;
+    width: 20em;
     margin-right: 1.3em;
     margin-left: 1.3em;                                    /*CARD DE LOS JUEGOS*/
     margin-bottom: 2em;                                   /*CARD DE LOS JUEGOS*/
     margin-top: 1em;                                       /*CARD DE LOS JUEGOS*/
-    height: 35em;
+    height: 38em;
     background-color: lightgrey;
-    border: rgb(6, 8, 110) solid 0.5em;
     border-radius: 1em;
  
 }
@@ -113,9 +109,8 @@ footer{
 .cardG img{
     height: 20em;
     border-radius: 0.5em;
-    border:rgb(6, 8, 110) 0.2em solid ;
-    width: 17.3em;
-    box-shadow:0.2em blue;
+    width: 20em;
+    box-shadow:0.2em black;
 }
 
 .info {
@@ -132,6 +127,7 @@ th,td{
     text-align: center;
     padding:0.5em;
     width: 10em;
+    height: 2em;
     border:0.2em black solid;
 }
 
@@ -141,17 +137,14 @@ input[type="button"]{
    margin: 1em;
    width: 90%;
    height: 4em;
-   background-color: orange;
-   border: orangered solid 0.3em;
-   color: blue;
+   background-color: green;
+   border-radius: 1em;
+   color: white;
 }
 
 }
 /*CIERRA BREAKPOINTCEL*/
-/*CIERRA BREAKPOINTCEL*/
 
-
-/*EMPIEZA BREAKPOINT TABLE*/
 /*EMPIEZA BREAKPOINT TABLE*/
 
 @media all and (min-width:768px){
@@ -176,9 +169,7 @@ flex-wrap: wrap;
 
 }
 /*CIERRA BREAKPOINT TABLE*/
-/*CIERRA BREAKPOINT TABLE*/
 
-/*EMPIEZA BREAKPOINT MONITOR*/
 /*EMPIEZA BREAKPOINT MONITOR*/
 @media all and (min-width:1200px){
 
