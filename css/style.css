@@ -134,6 +134,10 @@ input[type="button"]{
    color: white;
 }
 
+.slider{
+  display:none;
+}
+
 }
 /*CIERRA BREAKPOINTCEL*/
 
@@ -157,6 +161,10 @@ flex-wrap: wrap;
 
 #menu ul li{ 
    text-align: center;
+}
+
+.slider{
+  display: none;
 }
 
 }
