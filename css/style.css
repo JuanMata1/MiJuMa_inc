@@ -225,6 +225,8 @@ nav ul li{
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
 }
 
   #menu{
