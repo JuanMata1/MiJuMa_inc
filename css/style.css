@@ -216,8 +216,6 @@ nav ul li{
 .slider-contenedor{
     width: 100%;
     display: flex;
-    background-position: center;
-    background-size: contain;
 }
 
 .img-slider{
@@ -227,8 +225,6 @@ nav ul li{
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
-    background-position: center;
-    background-size: contain;
 }
 
   #menu{
