@@ -219,6 +219,7 @@ nav ul li{
   .slider{
     width: 100%;
     overflow: hidden;
+    display: flex;
 }
 
 .slider-contenedor{
