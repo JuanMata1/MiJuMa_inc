@@ -295,10 +295,12 @@ form input{
 
  .derecha{
      background-color: darkblue;
+     border-radius: 2em;
      width: 30%;
      display: grid;
      place-content: center;
-     margin-right: 1em;
+     margin-right: 5em;
+     color: white;
  }
 
  .derecha img{
