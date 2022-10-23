@@ -266,4 +266,42 @@ nav ul li{
     background-color: crimson;
   }
 
+  .flexIn{
+    display: flex;
+    flex-direction: row;
+ }
+
+form {
+     margin:  auto;
+     width: 600px;
+     padding: 2em;
+     color: white;
+     background-color: darkblue;
+     border-radius: 2em;
+ } 
+
+form ul{
+  list-style: none;
+}
+
+form ul li{
+  margin: 1em;
+}
+
+form input{
+  padding: 1.5em;
+  border: black solid 0.2em;
+}
+
+ .derecha{
+     background-color: darkblue;
+ }
+
+ #logos{
+     display: flex;
+     flex-direction: row;
+ }
+
+
+
 }
