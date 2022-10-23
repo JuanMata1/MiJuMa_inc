@@ -273,14 +273,13 @@ nav ul li{
  }
 
 form {
-     width: 38%;
+     width: 35%;
      padding: 2em;
      color: white;
      background-color: darkblue;
      border-radius: 2em;
      box-shadow: 0.4em 0.4em 0.4em darkblue;
      margin-left: 1em;
-     margin-right: 3em;
      font-size: larger;
  } 
 
