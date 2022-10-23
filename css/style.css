@@ -269,7 +269,7 @@ nav ul li{
   .flexIn{
     display: flex;
     flex-direction: row;
-    margin-top: 3em;
+    margin-top: 6em;
  }
 
 form {
@@ -278,7 +278,7 @@ form {
      color: white;
      background-color: darkblue;
      border-radius: 2em;
-     box-shadow: 16px 16px 0px 0px;
+     box-shadow: 1em 1em 1em 1em darkblue;
      margin-left: 1em;
  } 
 
@@ -298,11 +298,11 @@ form input{
  .derecha{
      background-color: darkblue;
      border-radius: 2em;
-     width: 40%;
+     width: 50%;
      display: grid;
      place-content: center;
-     margin-right: 5em;
-     margin-left: 1.8em;
+     margin-right: 3em;
+     margin-left: 3em;
      color: white;
      box-shadow: 0.4em 0.4em 0.4em darkblue;
  }
@@ -317,7 +317,7 @@ form input{
  .derecha img{
   width: 3em;
   height: 3em;
-  margin-left: 7em;
+  margin-left: 3em;
  }
 
  #logos{
