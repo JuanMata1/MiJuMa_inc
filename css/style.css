@@ -270,7 +270,7 @@ nav ul li{
     display: flex;
     flex-direction: row;
     margin-top: 6em;
-    margin-bottom: 6em;
+    margin-bottom: 12em;
  }
 
 form {
@@ -305,7 +305,7 @@ form input{
      display: grid;
      place-content: center;
      margin-right: 3em;
-     margin-left: 3em;
+     margin-left: 5em;
      color: white;
      box-shadow: 0.4em 0.4em 0.4em darkblue;
  }
