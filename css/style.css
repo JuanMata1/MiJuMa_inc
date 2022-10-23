@@ -269,6 +269,7 @@ nav ul li{
   .flexIn{
     display: flex;
     flex-direction: row;
+    margin-top: 3em;
  }
 
 form {
@@ -300,6 +301,7 @@ form input{
      display: grid;
      place-content: center;
      margin-right: 5em;
+     margin-left: 1.8em;
      color: white;
      box-shadow:  16px 16px 0px 0px;
  }
