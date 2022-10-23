@@ -147,10 +147,14 @@ input[type="button"]{
 
 form{
   width: 50%;
-  margin: 1em;
+  height: 20em;
+  margin-left: 3em;
   background-color: darkblue;
   color: white;
   border-radius: 2em;
+}
+
+form ul{
   display: flex;
   flex-direction: column;
 }
