@@ -279,6 +279,7 @@ form {
      background-color: darkblue;
      border-radius: 2em;
      box-shadow: 16px 16px 0px 0px;
+     margin-left: 1em;
  } 
 
 form ul{
@@ -297,13 +298,13 @@ form input{
  .derecha{
      background-color: darkblue;
      border-radius: 2em;
-     width: 60%;
+     width: 40%;
      display: grid;
      place-content: center;
      margin-right: 5em;
      margin-left: 1.8em;
      color: white;
-     box-shadow:  16px 16px 0px 0px;
+     box-shadow: 0.4em 0.4em 0.4em darkblue;
  }
 
  #info1{
@@ -322,6 +323,7 @@ form input{
  #logos{
      display: flex;
      flex-direction: row;
+     margin: auto;
  }
 
 
