@@ -133,8 +133,8 @@
      </section>
      <!--HTML MENU HAMBURGUESA MANUAL-->
      </header>
-    <section class="flexFA">
-        <article class="form">
+    <div class="grid">
+        <div class="form">
             <form action="/my-handling-form-page" method="post">
                 <h1>Formulario de contacto</h1><br>
                 <ul>
@@ -154,14 +154,19 @@
                         <label for="msg">Mensaje:</label>
                         <textarea id="msg" name="user_message"></textarea>
                     </li>
+                    <li class="button">
+                        <button type="submit">Envíe su mensaje</button>
+                    </li>
                 </ul>
-                     <input type="button" value="Enviar">
                 <p class="alerta" id="alerta"></p>
             </form>
-        </article>
-        <article class="derecha">
+        </div>
+        <div class="derecha">
+            <div class="texto">
                 <h1>¿Tienes alguna duda?</h1><br>
                 <p><i>Comunícate con nostros completando el formulario o en nuestras redes socilaes:</i></p>
+            </div>
+            <div class="grilla-iconos">
                 <div class="iconos">
                     <a href="https://www.facebook.com/" target="_blank">
                         <i class="fa-brands fa-facebook fa-2xl"></i></a>
@@ -172,8 +177,9 @@
                     <a href="https://www.twitter.com/" target="_blank">
                         <i class="fa-brands fa-twitter fa-2xl"></i></a>
                 </div>
-            </article>
-    </section>
+            </div>
+        </div>
+    </div>
     <script src="../js/validacion.js"></script>
 </body>
 </html>
