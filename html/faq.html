@@ -30,7 +30,7 @@
         .form{
             background-color: darkblue;
             border-radius: 4em;
-            box-shadow:  0px 0px 16px 16px;
+            box-shadow:  darkblue 0px 0px 16px 16px;
         }
 
 
@@ -58,6 +58,7 @@
             height: 40px;
             box-sizing: border-box;
             border: 1px solid #999;
+            resize: none;
         }
 
         input:focus,
@@ -132,8 +133,8 @@
      </section>
      <!--HTML MENU HAMBURGUESA MANUAL-->
      </header>
-    <div class="grid">
-        <div class="form">
+    <section class="flexFA">
+        <article class="form">
             <form action="/my-handling-form-page" method="post">
                 <h1>Formulario de contacto</h1><br>
                 <ul>
@@ -153,19 +154,14 @@
                         <label for="msg">Mensaje:</label>
                         <textarea id="msg" name="user_message"></textarea>
                     </li>
-                    <li class="button">
-                        <button type="submit">Envíe su mensaje</button>
-                    </li>
                 </ul>
+                     <input type="button" value="Enviar">
                 <p class="alerta" id="alerta"></p>
             </form>
-        </div>
-        <div class="derecha">
-            <div class="texto">
+        </article>
+        <article class="derecha">
                 <h1>¿Tienes alguna duda?</h1><br>
                 <p><i>Comunícate con nostros completando el formulario o en nuestras redes socilaes:</i></p>
-            </div>
-            <div class="grilla-iconos">
                 <div class="iconos">
                     <a href="https://www.facebook.com/" target="_blank">
                         <i class="fa-brands fa-facebook fa-2xl"></i></a>
@@ -176,9 +172,8 @@
                     <a href="https://www.twitter.com/" target="_blank">
                         <i class="fa-brands fa-twitter fa-2xl"></i></a>
                 </div>
-            </div>
-        </div>
-    </div>
+            </article>
+    </section>
     <script src="../js/validacion.js"></script>
 </body>
 </html>
