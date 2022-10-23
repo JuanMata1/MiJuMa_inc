@@ -140,6 +140,15 @@ input[type="button"]{
   display:none;
 }
 
+.flexIn{
+  display: flex;
+  flex-direction: column; 
+}
+
+form{
+  margin: 1em;
+}
+
 }
 /*CIERRA BREAKPOINTCEL*/
 
