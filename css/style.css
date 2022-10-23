@@ -303,6 +303,12 @@ form input{
      color: white;
  }
 
+ .derecha #info{
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+ }
+
  .derecha img{
   width: 3em;
   height: 3em;
