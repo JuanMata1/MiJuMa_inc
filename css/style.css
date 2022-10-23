@@ -278,6 +278,7 @@ form {
      color: white;
      background-color: darkblue;
      border-radius: 2em;
+     box-shadow: 16px 16px 0px 0px;
  } 
 
 form ul{
@@ -301,18 +302,20 @@ form input{
      place-content: center;
      margin-right: 5em;
      color: white;
+     box-shadow:  16px 16px 0px 0px;
  }
 
  #info1{
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   margin-left: 1em;
   margin-right: 1em;
+  font-size: larger;
  }
 
  .derecha img{
   width: 3em;
   height: 3em;
-  margin-left: 3em;
+  margin-left: 7em;
  }
 
  #logos{
