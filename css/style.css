@@ -304,6 +304,7 @@ form input{
  .derecha img{
   width: 3em;
   height: 3em;
+  margin-left: 3em;
  }
 
  #logos{
