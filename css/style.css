@@ -146,10 +146,13 @@ input[type="button"]{
 }
 
 form{
+  width: 50%;
   margin: 1em;
   background-color: darkblue;
   color: white;
   border-radius: 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .derecha img{
