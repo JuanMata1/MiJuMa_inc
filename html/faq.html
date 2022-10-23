@@ -13,7 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Formulario</title>
     <style>
-        .grid {
+        .flexIn{
            display: flex;
            flex-direction: row;
         }
@@ -81,8 +81,7 @@
      </section>
      <!--HTML MENU HAMBURGUESA MANUAL-->
      </header>
-    <div class="grid">
-        <div class="form">
+    <section class="flexIn">
             <form action="/my-handling-form-page" method="post">
                 <h1>Formulario de contacto</h1><br>
                 <ul>
@@ -108,7 +107,6 @@
                 </ul>
                 <p class="alerta" id="alerta"></p>
             </form>
-        </div>
         <div class="derecha">
             <div class="texto">
                 <h1>¿Tienes alguna duda?</h1><br>
@@ -127,7 +125,7 @@
                 </div>
             </div>
         </div>
-    </div>
+ </section>
     <script src="../js/validacion.js"></script>
 </body>
 </html>
