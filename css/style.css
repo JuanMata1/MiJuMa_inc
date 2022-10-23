@@ -163,6 +163,17 @@ form{
      flex-direction: row;
      margin: auto;
  }
+ .derecha{
+  background-color: darkblue;
+  border-radius: 2em;
+  width: 50%;
+  display: grid;
+  place-content: center;
+  margin-right: 3em;
+  margin-left: 5em;
+  color: white;
+  box-shadow: 0.4em 0.4em 0.4em darkblue;
+}
 
 }
 /*CIERRA BREAKPOINTCEL*/
