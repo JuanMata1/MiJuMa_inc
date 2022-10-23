@@ -327,6 +327,10 @@ form input{
      margin: auto;
  }
 
-
+ input[type="submit"]{
+  margin: auto;
+  width: 50%;
+  padding: 1em;
+ }
 
 }
