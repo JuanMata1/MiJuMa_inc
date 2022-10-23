@@ -147,16 +147,21 @@ input[type="button"]{
 
 form{
   width: 50%;
-  height: 20em;
+  padding: 2em;
   margin-left: 3em;
   background-color: darkblue;
   color: white;
   border-radius: 2em;
+  font-size: larger;
 }
 
 form ul{
-  display: flex;
-  flex-direction: column;
+  list-style: none;
+}
+
+form ul li{
+  padding: 1em;
+  margin: 1em;  
 }
 
 .derecha img{
