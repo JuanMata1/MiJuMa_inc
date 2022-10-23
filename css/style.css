@@ -270,6 +270,7 @@ nav ul li{
     display: flex;
     flex-direction: row;
     margin-top: 6em;
+    margin-bottom: 6em;
  }
 
 form {
