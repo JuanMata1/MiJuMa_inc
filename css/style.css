@@ -150,6 +150,7 @@ form{
   padding: 2em;
   margin-top: 2em;
   margin-left: 1em;
+  margin-right: 1em;
   margin-bottom: 2em;
   background-color: darkblue;
   color: white;
@@ -166,6 +167,11 @@ form ul{
 form ul li{
   padding: 1em;
   margin: 1em;  
+}
+
+form input{
+  padding: 0.5em;
+  border: solid black 0.2em;
 }
 
 .derecha img{
