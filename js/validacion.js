@@ -13,7 +13,7 @@ formulario.addEventListener("submit", evento => {
     alerta.innerHTML = ""
 
     if (nombre.value.length < 6) {
-        alertas += `<br><b><p style="color:#9D2207">El nombre no es válido (debe ser mayor a 6 caracteres) </b></p><br>`;
+        alertas += `<br><b><p style="color:#FF5733">El nombre no es válido (debe ser mayor a 6 caracteres) </b></p><br>`;
         correcto = false;
     }
     if (!emailRegExp.test(correo.value)) {
@@ -33,6 +33,6 @@ formulario.addEventListener("submit", evento => {
     if (!correcto) {
         alerta.innerHTML = alertas;
     } else {
-        alerta.innerHTML = "Enviado correctamente";
+        alerta.innerHTML =  `<b>"Enviado correctamente" `;
     }
 })
