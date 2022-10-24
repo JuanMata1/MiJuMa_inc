@@ -14,4 +14,4 @@ function traer() {
                 `
         })
 }
-setInterval(traer, 6000)
+setInterval(traer, 5900)
