@@ -149,11 +149,11 @@ input[type="button"]{
 form{
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 100%;
   padding: 2em;
   margin-top: 2em;
   margin-right: 1em;
-  margin-left: 3em;
+  margin-left: 2.5em;
   margin-bottom: 1em;
   background-color: darkblue;
   color: white;
