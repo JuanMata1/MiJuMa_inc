@@ -223,7 +223,7 @@ iframe{
 }
  .w3-animate-fading {
     animation-duration: 6900ms;
-     animation-delay: 200ms;
+     animation-delay: -200ms;
  }
 
 footer{
