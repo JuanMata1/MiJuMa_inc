@@ -22,6 +22,7 @@ footer{
 
 
 /* EMPIEZA CSS BREAKPOINT CEL*/
+/* EMPIEZA CSS BREAKPOINT CEL*/
 
 @media all and (min-width:320px){
   
@@ -85,9 +86,9 @@ footer{
 
 .cardG{               
     box-shadow: 0.4em 0.4em 0.4em gray ;
-    width: 20em;
+    width: 19em;
     margin-right: 1.3em;
-    margin-left: 1.3em;                                    /*CARD DE LOS JUEGOS*/
+    margin-left: 1em;                                    /*CARD DE LOS JUEGOS*/
     margin-bottom: 2em;                                   /*CARD DE LOS JUEGOS*/
     margin-top: 1em;                                       /*CARD DE LOS JUEGOS*/
     height: 38em;
@@ -103,7 +104,7 @@ footer{
 .cardG img{
     height: 20em;
     border-radius: 0.5em;
-    width: 20em;
+    width: 19em;
     box-shadow:0.2em black;
 }
 
@@ -146,32 +147,24 @@ input[type="button"]{
 }
 
 form{
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
   padding: 2em;
   margin-top: 2em;
-  margin-left: 1em;
   margin-right: 1em;
-  margin-bottom: 2em;
+  margin-left: 0.2em;
+  margin-bottom: 1em;
   background-color: darkblue;
   color: white;
   border-radius: 2em;
   font-size: larger;
 }
 
-form ul{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-}
-
-form ul li{
-  padding: 1em;
-  margin: 1em;  
-}
-
 form input{
   padding: 0.6em;
   border: solid black 0.2em;
+  margin-bottom: 1em;
 }
 
 .derecha img{
@@ -183,23 +176,61 @@ form input{
  #logos{
      display: flex;
      flex-direction: row;
-     margin: auto;
+     margin: auto;  
  }
  .derecha{
   background-color: darkblue;
-  border-radius: 2em;
-  width: 50%;
+  border-radius: 1em;
+  width: 100%;
+  margin-bottom: 1em;                      /*INFORMACION FAQ DERECHA*/
+  margin-left: 0.2em;                       /*INFORMACION FAQ DERECHA*/
+  display: grid;                            /*INFORMACION FAQ DERECHA*/
+  place-content: center;
+  color: white;
+}
+
+#info1{
+  margin-bottom: 1em;
+}
+
+textarea{
+margin-bottom: 1.2em;
+resize: none;
+}
+
+input[type="submit"]{
+  background-color: orange;
+  padding: 1em;
+}
+
+iframe{
+  width: 85%;
+}
+
+#contenido{
+  background-color: #EFEFEF;
   display: grid;
   place-content: center;
-  margin-right: 3em;
-  margin-left: 1em;
-  color: white;
-  box-shadow: 0.4em 0.4em 0.4em darkblue;
 }
 
+#contenido article{
+   margin: 1em;
+}
+
+#contenido img{
+  border-radius: 4em;
+
+}
+
+footer{
+  background-color: #112B3C;
+  color: orangered;
+ 
 }
 /*CIERRA BREAKPOINTCEL*/
+/*CIERRA BREAKPOINTCEL*/
 
+/*EMPIEZA BREAKPOINT TABLE*/
 /*EMPIEZA BREAKPOINT TABLE*/
 
 @media all and (min-width:768px){
@@ -226,9 +257,16 @@ flex-wrap: wrap;
   display: none;
 }
 
+footer{
+  background-color: #112B3C;
+  color: orangered;
+}
+
 }
 /*CIERRA BREAKPOINT TABLE*/
+/*CIERRA BREAKPOINT TABLE*/
 
+/*EMPIEZA BREAKPOINT MONITOR*/
 /*EMPIEZA BREAKPOINT MONITOR*/
 @media all and (min-width:1200px){
 
@@ -327,12 +365,12 @@ nav ul li{
     display: flex;
     flex-direction: row;
     margin-top: 6em;
-    margin-bottom: 20em;
+    margin-bottom: 5em;
  }
 
 form {
      width: 25%;
-     padding: 2em;
+     padding: 1em;
      color: white;
      background-color: darkblue;
      border-radius: 2em;
@@ -340,14 +378,6 @@ form {
      margin-left: 1em;
      font-size: larger;
  } 
-
-form ul{
-  list-style: none;
-}
-
-form ul li{
-  margin: 1em;
-}
 
 form input{
   padding: 0.7em;
@@ -390,6 +420,18 @@ form input{
   margin: auto;
   width: 50%;
   padding:1.8em;
+ }
+
+ footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #112B3C;
+  color: orangered;
+ }
+
+ footer h3{
+  display: grid;
+  place-content: center;
  }
 
 }
