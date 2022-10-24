@@ -26,7 +26,7 @@ formulario.addEventListener("submit", evento => {
     }
 
     if (texto.value.length < 10) {
-        alertas += `<b><p style="color:#FF5733">Se debe completar el campo "Mensaje "</b></p>`;
+        alertas += `<b><p style="color:#FF5733">Se debe completar el campo con 10 caracteres o más</b></p>`;
         correcto = false;
     }
 
