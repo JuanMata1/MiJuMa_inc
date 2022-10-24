@@ -221,9 +221,10 @@ iframe{
   border-radius: 4em;
 
 }
-    .w3-animate-fading {
-            animation-duration: 6900ms;
-        }
+ .w3-animate-fading {
+    animation-duration: 6900ms;
+     animation-delay: 200ms;
+ }
 
 footer{
   background-color: #112B3C;
