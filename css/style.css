@@ -208,7 +208,7 @@ iframe{
 }
 
 #contenido{
-  background-color: #EFEFEF;
+  color: white;
   display: grid;
   place-content: center;
 }
