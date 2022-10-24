@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>LaterGaming</title>
+    
 </head>
 <body>
  <header>
@@ -30,17 +31,29 @@
     </div>
      <main>
     <section class="flexIn">
-            <form>
+            <form action="#" method="post" id="form">
                 <h1>Formulario de contacto</h1><br>
+                <ul>
+                    <li>
                         <label for="name">Nombre:</label>
                         <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
                         <label for="mail">E-mail:</label>
                         <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li>
                         <label for="tel">Tel: (+54)</label>
-                        <input id="tel" type="number" name="telephone" >
+                        <input id="tel" type="tel" name="telephone">
+                    </li>
+                    <li>
                         <label for="msg">Mensaje:</label>
                         <textarea id="msg" name="user_message"></textarea>
-                  <input type="submit" value="Enviar">
+                    </li>
+                    <li class="button">
+                        <button type="submit">Envíe su mensaje</button>
+                    </li>
+                </ul>
                 <p class="alerta" id="alerta"></p>
             </form>
         <article class="derecha">
