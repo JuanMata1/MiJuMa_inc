@@ -193,10 +193,24 @@ form input{
   margin-bottom: 1em;
 }
 
-textarea{
-margin-bottom: 1.2em;
-resize: none;
-}
+input,
+        textarea {
+            font: 1em sans-serif;
+            width: 500px;
+            height: 40px;
+            box-sizing: border-box;
+            border: 1px solid #999;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: #000;
+        }
+
+        textarea {
+            vertical-align: top;
+            height: 5em;
+        }
 
 input[type="submit"]{
   background-color: orange;
