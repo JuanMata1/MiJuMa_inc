@@ -221,6 +221,9 @@ iframe{
   border-radius: 4em;
 
 }
+    .w3-animate-fading {
+            animation-duration: 7000ms;
+        }
 
 footer{
   background-color: #112B3C;
