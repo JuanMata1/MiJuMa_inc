@@ -2,11 +2,26 @@
 Proyecto grupal
 
 INTEGRANTES:
+
 Yésica Micaela Soria
+
 Mariam Calmels
+
 Juan Pablo Maza
 
+__________________________________________
+
+
 Animaciones, transiciones, transformacines:
-menu responsive - transition abrir cerrar
-hover en botones - transition de background
-hover en articles - transform
+
+Menu responsive - transition abrir cerrar
+
+Hover en botones - transition de background
+
+Hover en articles - transform
+
+Api - animación en la transición entre imágenes
+
+__________________________________________
+
+API utilizada: https://randomuser.me/api/
