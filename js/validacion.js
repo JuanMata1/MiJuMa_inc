@@ -33,6 +33,6 @@ formulario.addEventListener("submit", evento => {
     if (!correcto) {
         alerta.innerHTML = alertas;
     } else {
-        alerta.innerHTML =  `<b>"Enviado correctamente" `;
+        alerta.innerHTML =  `<b><p style="color:#9D2207">Enviado correctamente </b></p> `;
     }
 })
