@@ -34,22 +34,22 @@
                 <ul>
                     <li>
                         <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="user_name">
+                        <input type="text" id="name" name="user_name" maxlength="100">
                     </li>
                     <li>
                         <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_mail">
+                        <input type="email" id="mail" name="user_mail" required maxlength="150">
                     </li>
                     <li>
                         <label for="tel">Tel: (+54)</label>
-                        <input id="tel" type="tel" name="telephone">
+                        <input id="tel" type="number" name="telephone" >
                     </li>
                     <li>
                         <label for="msg">Mensaje:</label>
                         <textarea id="msg" name="user_message"></textarea>
                     </li>
                 </ul>
-                  <input type="button" value="Enviar">
+                  <input type="submit" value="Enviar">
                 <p class="alerta" id="alerta"></p>
             </form>
         <article class="derecha">
