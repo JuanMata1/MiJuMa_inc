@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace !important;
 }
 
 html{
@@ -16,7 +16,6 @@ header{
 }
 
 footer{
-    background-color: aquamarine;
     padding: 1em;
 }
 
@@ -229,7 +228,7 @@ iframe{
 footer{
   background-color: #112B3C;
   color: orangered;
- 
+  
 }
 /*CIERRA BREAKPOINTCEL*/
 /*CIERRA BREAKPOINTCEL*/
