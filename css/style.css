@@ -34,6 +34,8 @@ footer{
 
   h2{
     text-align: center;
+    font-weight: normal !important;
+    margin: 10px !important;
   }
   
   #menu-enl li{
@@ -314,6 +316,7 @@ nav ul li{
   h2{
     display: grid;
     place-content: center;
+    font-size: ;
   }
 
   .slider{
